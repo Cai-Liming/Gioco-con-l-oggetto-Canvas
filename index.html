@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <style>
         canvas {
             border: 1px solid #d3d3d3; 
@@ -16,10 +17,13 @@
 </head>
 
 <body onload="startGame()">
-    <button id="su" onclick="moveup()">up</button>
-    <button id="giu" onclick="movedown()">down</button>
-    <button id="txt" onclick="moveleft()">left</button>
-    <button id="txt" onclick="moveright()">right</button>
+    
+    <div style="text-align:center;width:480px;">
+        <button onclick="moveup()">UP</button><br><br>
+        <button onclick="moveleft()">LEFT</button>
+        <button onclick="moveright()">RIGHT</button><br><br>
+        <button onclick="movedown()">DOWN</button>
+      </div>
     
 
 <p>ciao</p>
