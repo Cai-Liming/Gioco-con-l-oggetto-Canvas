@@ -45,19 +45,19 @@ function updateGameArea (){
 }
 
 function moveup() {
-    myGamePiece.speedY -= 1; 
+    myGamePiece.speedY -= 30; 
 }
 
 function movedown() {
-    myGamePiece.speedY += 1; 
+    myGamePiece.speedY += 30; 
 }
 
 function moveleft() {
-    myGamePiece.speedX -= 1; 
+    myGamePiece.speedX -= 30; 
 }
 
 function moveright() {
-    myGamePiece.speedX += 1; 
+    myGamePiece.speedX += 30; 
 }
 
   
