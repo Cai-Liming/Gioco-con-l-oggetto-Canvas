@@ -39,7 +39,7 @@ function component(width, height, color, x, y) {
 }
 
 function updateGameArea (){
-    //myGameArea.clear();
+    myGameArea.clear();
     //myGamePiece.newPos();
     myGamePiece.update();
 }
