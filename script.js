@@ -39,25 +39,25 @@ function component(width, height, color, x, y) {
 }
 
 function updateGameArea (){
-    myGameArea.clear();
-    myGamePiece.newPos();
+    //myGameArea.clear();
+    //myGamePiece.newPos();
     myGamePiece.update();
 }
 
 function moveup() {
-    myGamePiece.speedY -= 30; 
+    myGamePiece.y -= 60; 
 }
 
 function movedown() {
-    myGamePiece.speedY += 30; 
+    myGamePiece.y += 60; 
 }
 
 function moveleft() {
-    myGamePiece.speedX -= 30; 
+    myGamePiece.x -= 60; 
 }
 
 function moveright() {
-    myGamePiece.speedX += 30; 
+    myGamePiece.x += 60; 
 }
 
   
